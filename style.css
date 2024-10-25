@@ -1,0 +1,283 @@
+/* GERAL */
+*{
+    /* fonte
+        <uniquifier>: Use a unique and descriptive class name
+        <weight>: Use a value from 100 to 900 */
+
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+
+
+    /* borda */
+header, main, button, section[id=transform-world]{
+    border-style: solid;
+    border-width: 1px ;
+    border-color: #33A8DB;
+}
+
+main{
+    background-color: black;
+}
+
+
+    /* textos */
+h1{
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient( #33A8DB, #1472B7);
+    color: transparent;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 40px;
+    
+}
+
+
+h2{
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #33A8DB;
+    /* alinhando */
+    text-align: center;
+    margin: 0%;
+
+}
+
+
+p{
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+
+/* primeiro baner*/
+.banner {
+    /* tamanho */
+    height: 605px;
+    width: 100%;
+    padding-top: 60px;
+    /* imagem de fundo */
+    background-image: linear-gradient( #000000FF, #073347, #000000FF ), url(assets/images/banner.png);
+    background-blend-mode: overlay;
+    background-size: cover;
+
+}
+
+
+/* conteudo do banner */
+.banner-content {
+    width: 510px;
+    /* alinhando */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* texto do banner */
+h1 + p{
+    /* texo */
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+
+.logo{
+    width: 268px;
+    height: 241px;
+    background-color: #00000033;
+    /* alinhando */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* borda */
+    border-style: solid;
+    border-radius: 50%;
+    border-color: transparent;
+    padding-top: 27px;
+    
+}
+
+div img{
+    /* alinhando */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+
+button{
+    width: 326px;
+    height: 57px;
+    /* fonte */
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient( #33A8DB, #1472B7);
+    color: transparent;
+    /* borda */
+    border-width: 2px;
+    border-color: linear-gradient(#3BA1CD, #1572B7);
+    padding: 19px, 91px;
+    /* alinhando */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+/* segundo baner 
+FALTA ALINHAMENTO TOTAL*/
+#course-content{
+    height: 325px;
+    width: 792px;
+    /* alinhando */
+    display: block;
+    margin: 140px auto;
+    
+}
+
+
+.module{
+    width: 535px;
+    height: 51px;
+    background-color: #252525;    
+    /* texto */
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    /* borda */
+    border-style: solid;
+    border-radius: 57px;
+    border-color: #33A8DB;
+    /* sombra interna */
+    box-shadow: inset 2px 6px 4px #00000066 ;
+    /* alinhando */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* alinhando */
+    margin: 20px auto;
+    
+}
+
+
+span{
+    color: #1472B7;
+
+}
+
+
+/* terceiro baner */
+#transform-world{
+    width: 100%;
+    height: 363px;
+    /* imagem de fundo */
+    background-image: url(assets/images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+section[id=transform-world] > p{
+    width: 280px;
+    height: 141px;
+    /* posicionamento */
+    margin-top: 111px;
+    margin-left: 198px;
+    /* texto */
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46.96px;
+    text-align: left;
+    text-transform: lowercase;
+    word-wrap: break-word;
+    /* sombra */ 
+    text-shadow: 3px 2px #33A8DB;
+
+}
+
+
+    /* quarto banner */
+#professional-challenges{
+    width: 100%;
+    height: 748px;
+    margin-top: 76px;
+}
+
+
+section[id="professional-challenges"] > h2{
+    width: 746px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+img[title="Homem lendo depoimentos em um tablet"]{
+    /* alinhando */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+
+img[title="Homem lendo depoimentos em um tablet"] + p{
+    width: 792px;
+    height: 76px;
+    text-align: center;
+    /* alinhando */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+    /* quinto banner */
+footer{
+    height: 170px;
+    background-image: linear-gradient(#33A8DB00, #33A8DB33, #33A8DB33);
+    background-color: black;
+    /* borda */
+    border-style: solid;   
+}
+
+
+footer > img{
+    /* alinhando */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: auto;
+}
+
+
+p > a{
+    font-weight: 700;
+    color: #3BA1CD;
+    text-decoration: none;
+}
